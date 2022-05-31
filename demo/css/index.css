@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(172, 189, 189);
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(197, 185, 185);
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 20px;
+}
+a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    border: 2px black solid;
+    padding: 25px;
+    margin: 10px;
+}
+img{
+    width: 250px;
+    height:250px;
+}
+#para1 img{
+float: right;
+}
+p1{
+    text-align: left;
+}
+#para2 img{
+    float: left;
+}
+#p2{
+    text-align: right;
+}

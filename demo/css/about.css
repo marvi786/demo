@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(172, 189, 189);
+}
+h1{
+    text-align: center;
+    color: rgb(85, 138, 235);
+    position: relative;
+    animation: heading;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+@keyframes heading {
+    0%{top: -50px;}
+    100%{top: 100px;}
+}
+p{
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(81, 118, 189);
+    position: relative;
+    animation: para;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+@keyframes para {
+    0%{left:  -150px;}
+    100%{left: 5px;}
+}
